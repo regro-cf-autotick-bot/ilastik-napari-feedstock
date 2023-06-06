@@ -1,5 +1,5 @@
 {% set name = "ilastik-napari" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ilastik-napari-{{ version }}.tar.gz
-  sha256: 370683b903f26384974286f80779f2b1f4a711345a824eba26ae430590d44046
+  sha256: b5ae109340fb20f247ef3350668b6da536d57356d2c0e371e895cfeec0ed90f8
 
 build:
   noarch: python
